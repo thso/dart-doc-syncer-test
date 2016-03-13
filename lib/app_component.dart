@@ -1,4 +1,3 @@
-// #docregion
 import 'dart:convert';
 import 'dart:html';
 
@@ -45,13 +44,11 @@ class AppComponent implements OnInit, AfterViewInit {
   List<Hero> heroes;
   Hero currentHero;
 
-  // #docregion refresh-heroes
   /// Updates [this.heroes] with fresh set of cloned heroes.
   void refreshHeroes() {
     heroes = mockHeroes.map((hero) => hero.clone()).toList();
     currentHero = heroes[0];
   }
-  // #enddocregion refresh-heroes
 
   final Hero nullHero = null;
   Map product = {'name': 'frimfram', 'price': 42};
@@ -127,24 +124,19 @@ class AppComponent implements OnInit, AfterViewInit {
   }
 
   Map<String, bool> _previousClasses = {};
-  // #docregion setClasses
   Map<String, bool> setClasses() {
     final classes = {
       'saveable': canSave, // true
       'modified': !isUnchanged, // false
       'special': isSpecial // true
     };
-    // #docregion setClasses
     // compensate for DevMode (sigh)
     if (JSON.encode(_previousClasses) ==
         JSON.encode(classes)) return _previousClasses;
     _previousClasses = classes;
-    // #enddocregion setClasses
     return classes;
   }
-  // #enddocregion setClasses
 
-  // #docregion setStyles
   Map setStyles() {
     return {
       'font-style': canSave ? 'italic' : 'normal', // italic
@@ -152,7 +144,6 @@ class AppComponent implements OnInit, AfterViewInit {
       'font-size': isSpecial ? '24px' : '8px' // 24px
     };
   }
-  // #enddocregion setStyles
 
   String title = 'Template Syntax';
   String toeChoice;
@@ -169,13 +160,9 @@ class AppComponent implements OnInit, AfterViewInit {
     return null;
   }
 
-  // #docregion trackByHeroes
   int trackByHeroes(int index, Hero hero) => hero.id;
-  // #enddocregion trackByHeroes
 
-  // #docregion trackById
   int trackById(int index, dynamic item) => item.id;
-  // #enddocregion trackById
 
   int val = 2;
 
