@@ -1,19 +1,30 @@
 Template Syntax
 ---------------
 
-Welcome to the example application used in angular.io/dart's [Template Syntax](//github.com/angular/angular.io/public/docs/_examples/template-syntax/dart) page.
+**WARNING:** This example is preliminary and will probably change.
 
-You can run a [hosted copy](www.template-syntax-link.com) of thissample. Or run your own copy:
+Welcome to the example application used in angular.io/dart's
+[Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html) page.
 
-- Clone this repo.
-- Download the dependencies:
+To run your own copy:
+
+1. Clone this repo.
+2. Download the dependencies:
 
   `pub get`
-- Launch a development server:
+3. Launch a development server:
 
   `pub serve`
-- Open a browser to `http://localhost:8080`.<br/>
-  In Dartium, you'll see the app right away. In other modern browsers, you'll have to wait a bit while pub converts the app.
+4. Open a browser to `http://localhost:8080`.<br/>
+  In Dartium, you'll see the app right away. In other modern browsers,
+  you'll have to wait a bit while pub converts the app.
 
-See also:
-- www.template-syntax-link.com
+
+
+-------------------------------------------------------
+
+*Note:* The content of this repository is generated from
+[the angular.io repository](//github.com/angular/angular.io/tree/master/public/docs/_examples/template-syntax/dart) by running the
+[dart-doc-syncer](//github.com/angular/dart-doc-syncer) tool.
+If you find a problem with this sample's code, please open an
+[issue at angular/angular.io](https://github.com/angular/angular.io/issues/new).
