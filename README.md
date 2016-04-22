@@ -1,10 +1,7 @@
+
+
 Template Syntax
 ---------------
-
-**WARNING:** This example is preliminary and will probably change.
-
-------------------------------------------------------------------
-      
 
 Welcome to the example application used in angular.io/dart's
 [Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html) page.
