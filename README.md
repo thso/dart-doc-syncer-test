@@ -1,10 +1,10 @@
 
 
-Template Syntax
+Architecture overview
 ---------------
 
 Welcome to the example application used in angular.io/dart's
-[Template Syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html) page.
+[Architecture overview](https://angular.io/docs/dart/latest/guide/architecture.html) page.
 
 To run your own copy:
 
@@ -24,7 +24,7 @@ To run your own copy:
 -------------------------------------------------------
 
 *Note:* The content of this repository is generated from
-[the angular.io repository](//github.com/angular/angular.io/tree/master/public/docs/_examples/template-syntax/dart) by running the
+[the angular.io repository](//github.com/angular/angular.io/tree/master/public/docs/_examples/architecture/dart) by running the
 [dart-doc-syncer](//github.com/angular/dart-doc-syncer) tool.
 If you find a problem with this sample's code, please open an
 [issue at angular/angular.io](https://github.com/angular/angular.io/issues/new).
